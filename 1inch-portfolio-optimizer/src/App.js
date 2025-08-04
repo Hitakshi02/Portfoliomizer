@@ -9,7 +9,7 @@ alert("🚨 App.js is mounted!");
 
 function App() {
   console.log("🔧 Initializing 1inch Portfolio Optimizer...");
-  const TEST_WALLET = "0x4CbEe7aD42d33e9D3B41e8b6FAcA2f6f173C8A94";
+  const TEST_WALLET = "0X000";
 
   const [walletAddress, setWalletAddress] = useState('');
   const [balances, setBalances] = useState(null);
